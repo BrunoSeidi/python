@@ -35,3 +35,6 @@ def cipher_program():
 
 print(logo)
 cipher_program()
+
+#ceil and floor()
+#https://www.geeksforgeeks.org/floor-ceil-function-python/
