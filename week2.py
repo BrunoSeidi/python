@@ -38,3 +38,24 @@ cipher_program()
 
 #ceil and floor()
 #https://www.geeksforgeeks.org/floor-ceil-function-python/
+
+
+people
+= {
+ 8 "Brian": "+1-617-495-1000"
+,
+ 9 "David": "+1-949-468-2750"
+10
+}
+11
+12 # Search for name
+13 name
+= get_string("Name: "
+)
+14 if name in people:
+15 print
+(f"Number:
+{people[name]
+}
+"
+)
