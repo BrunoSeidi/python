@@ -92,3 +92,6 @@ while not bidding_finished:
   elif should_continue == "yes":
     clear()
   
+  
+  
+  https://www.w3schools.com/python/python_strings.asp
