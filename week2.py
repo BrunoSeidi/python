@@ -147,3 +147,11 @@ calculator()
 
 
 https://labs.cognitiveclass.ai/tools/jupyterlab/lab/tree/labs/PY0101EN/PY0101EN-2-2-Lists.ipynb?lti=true
+  
+  print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+if height >= 120:
+  print(f"you can ride")
+else:
+  print(f"go away")
+  
