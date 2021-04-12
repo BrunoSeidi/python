@@ -33,3 +33,26 @@ programming_dictionary = {"Bug": "An error in a program that prevents the progra
 programming_dictionary['hello'] = "olá"
 
 print(programming_dictionary)
+
+////////////////////
+
+student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99, 
+  "Draco": 74,
+  "Neville": 62,
+}
+# 🚨 Don't change the code above 👆
+
+#TODO-1: Create an empty dictionary called student_grades.
+student_grades = {}
+
+#TODO-2: Write your code below to add the grades to student_grades.👇
+for student in student_scores:
+ grades = student_scores[student] #how to print values in the keys in the dictionary
+ print(grades)
+    
+
+# 🚨 Don't change the code below 👇
+print(student_grades)
