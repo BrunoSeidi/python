@@ -52,7 +52,11 @@ student_grades = {}
 for student in student_scores:
  grades = student_scores[student] #how to print values in the keys in the dictionary
  print(grades)
-  
+  # 🚨 Don't change the code below 👇
+print(student_grades)
+
+
+
   -------------------------------
   travel_log = [
 {
@@ -91,9 +95,37 @@ print(format_names("angela", "BRUNO"))
 
 
 
+-----------
+#CALCULATOR
 
+def add(num1, num2):
+  return num1 + num2
 
-    
+def subtract(num1, num2):
+  return num1 - num2
 
-# 🚨 Don't change the code below 👇
-print(student_grades)
+def mult(num1, num2):
+  return num1 * num2
+
+def divide(num1, num2):
+  return num1 / num2
+
+operations = {
+"+": add,
+"-": subtract,
+"*": mult,
+"/": divide
+} 
+
+n1 = int(input("whats the first number? "))
+n2 = int(input ("whats the second number? "))
+
+for sign in operations:
+  print(sign)
+
+operation_s = input("pick one operation sign above: ")
+
+calculation_function = operations[operation_s]
+answear = calculation_function(n1, n2)
+
+print(f"{n1} {operation_s} {n2} = {answear}")
