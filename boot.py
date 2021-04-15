@@ -81,6 +81,14 @@ def add_new_country(add_country, add_cities, times_visited):
 #🚨 Do not change the code below
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 print(travel_log)
+////////////////////////////////
+def format_names(f_name, l_name):
+  formated=  f_name.title()
+  formated_n = l_name.title()
+  return(f"{formated} {formated_n}")
+
+print(format_names("angela", "BRUNO"))
+
 
 
 
