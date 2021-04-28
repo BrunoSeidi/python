@@ -126,6 +126,10 @@ for sign in operations:
 operation_s = input("pick one operation sign above: ")
 
 calculation_function = operations[operation_s]
+//
+
 answear = calculation_function(n1, n2)
 
 print(f"{n1} {operation_s} {n2} = {answear}")
+
+https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA
